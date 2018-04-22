@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/serif.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<img class="fragment" src="img/paul.jpg" width="500px" alt="">
+				<img class="fragment" src="img/pl.png" width="500px" alt="">
+			</section>
+			<section>
+				<h1>Where it all began...</h1>
+				<h2 class="fragment">Jersey</h2>
+				<ul style="display: flex; flex-direction: row;">
+					<li class="fragment" style="margin-left: 100px;">4 D's</li>
+					<li class="fragment" style="margin-left: 100px;">2 E's</li>
+					<li class="fragment" style="margin-left: 100px;">1 F</li>
+					<li class="fragment" style="margin-left: 100px;">1 B</li>
+					<li class="fragment" style="margin-left: 100px;">0 hope</li>
+				</ul>
+			</section>
+			<section>
+				<h2>What do you do when you feel stuck?</h2>
+			</section>
+			<section>
+				<h1>Make Big Decisions</h1>
+				<img src="img/cc.png" width="264" class="fragment">
+				<span class="fragment">or</span>
+				<img src="img/tai.png" width="307" class="fragment">
+			</section>
+			<section>
+				<img src="img/goodlife.png" alt="">
+			</section>
+			<section data-background="img/funny.jpg">
+			</section>
+			<section>
+				<img src="img/cobai.png" style="background: transparent; border: none;" alt="">
+			</section>
+			<section data-background="img/SCREENSCEPTION.png">
+			</section>
+			<section>
+				<section>
+					<h4>An Internet Based Business</h4>
+					<img src="img/graph1.png" width="450px" alt="">
+					<img src="img/graph2.png" width="410px" alt="">
+					<img src="img/graph3.png" width="500px" alt="">
+				</section>
+				<section>
+					<img class="fragment" style="background: none; border: none;" src="img/lg1.png" alt="">
+					<img class="fragment" style="background: none; border: none; width: 445px;" src="img/lg2.png" alt="">
+					<img class="fragment" style="background: none; border: none;" src="img/lg3.png" alt="">
+				</section>
+			</section>
+
+			<section>
+				<img src="img/cff.png" alt="">
+			</section>
+			<section>
+				<img src="img/insurance.png" alt="">
+			</section>
+			<section>
+				<h1>Thanks for Listening!</h1>
+				<h2>Any Questions?</h2>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+</html>
